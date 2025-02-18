@@ -23,7 +23,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/yourusername/minesweeper.git
+   git clone https://github.com/Foxpunk/Saper
 
 
 ## Иерархия классов
