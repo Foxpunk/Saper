@@ -254,15 +254,6 @@ namespace Saper
                     }
                 }
             }
-
-            //if (isGameWon)
-            //{
-            //    VictoryMessage.Text = $"Поздравляю, вы выиграли!\nВремя: {elapsedTime} секунд";
-            //    VictoryMessage.Visibility = Visibility.Visible;
-            //    MinesLeftText.Visibility = Visibility.Collapsed;
-            //    TimerText.Visibility = Visibility.Collapsed;
-            //    timer.Stop();
-            //}
             if (isGameWon)
             {
                 timer.Stop();
@@ -272,11 +263,6 @@ namespace Saper
             }
 
         }
-        //private void ShowTableWindow()
-        //{
-        //    var tableWindow = new TableWindow(tableRecord.GetRecords());
-        //    tableWindow.ShowDialog();
-        //}
         private void ShowTableWindow(object sender, RoutedEventArgs e)
         {
             var tableWindow = new TableWindow(tableRecord.GetRecords());
